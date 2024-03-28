@@ -502,3 +502,28 @@
 //     sum = sum + i
 // }
 // console.log(sum)
+
+// function getDegree(a, b){
+//     return result = (a**b)
+// }
+// console.log(getDegree(2,1))
+
+// function checkNum(a){
+//     if(a%2==0){
+//         return "Четное"
+//     }
+//     else {
+//         return "Не четное"
+//     }
+// }
+// console.log(getNum(3))
+
+const checkVowel = (letter) => {
+    if (letter === "а" || letter === "e" || letter === "и" || letter === "о" || letter === "у" || letter === "э"){
+        return "гласная"
+    }
+    else{
+        return "не гласная"
+    }
+}
+console.log(checkVowel("а"))
